@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body { 
             height: 100vh;
@@ -13,20 +13,35 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
         }
+        /*
+        shorthand background:
+
+        color image position repeat [sise] attachment
+
+        ex: background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+        background-size: cover;
+
+        obs: O size não está funcionando no chrome
+        */
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
+            box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.596);
         }
     </style>
 </head>
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quia libero fugit aut voluptatum dolores temporibus accusamus. Dignissimos cupiditate quibusdam, corrupti laudantium neque laborum rerum vero cumque sunt quae. Nulla. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam ducimus voluptatibus amet, pariatur nemo esse facilis repellendus ut? Ullam placeat, perspiciatis commodi nihil expedita dignissimos animi ipsa vel laudantium amet.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quia libero fugit aut voluptatum dolores temporibus accusamus. Dignissimos cupiditate quibusdam, corrupti laudantium neque laborum rerum vero cumque sunt quae. Nulla. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam ducimus voluptatibus amet, pariatur nemo esse facilis repellendus ut? Ullam placeat, perspiciatis commodi nihil expedita dignissimos animi ipsa vel laudantium amet.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quia libero fugit aut voluptatum dolores temporibus accusamus. Dignissimos cupiditate quibusdam, corrupti laudantium neque laborum rerum vero cumque sunt quae. Nulla. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam ducimus voluptatibus amet, pariatur nemo esse facilis repellendus ut? Ullam placeat, perspiciatis commodi nihil expedita dignissimos animi ipsa vel laudantium amet.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quia libero fugit aut voluptatum dolores temporibus accusamus. Dignissimos cupiditate quibusdam, corrupti laudantium neque laborum rerum vero cumque sunt quae. Nulla. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam ducimus voluptatibus amet, pariatur nemo esse facilis repellendus ut? Ullam placeat, perspiciatis commodi nihil expedita dignissimos animi ipsa vel laudantium amet.</p>
     </main>
     
